@@ -1,7 +1,7 @@
 #name = input("Enter your name: ")
 
 #while name == "":
-    #print("You dod not enter yout name")
+    #print("You did not enter yout name")
 #else:
     #print(f"Hello {name}")   
 
