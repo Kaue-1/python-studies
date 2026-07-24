@@ -10,7 +10,8 @@ print("An enemy has been encountered!!")
 print("-------------------------")
 
 while player_health >0 and enemy_health >0:
-    print(f"Player Health: {player_health} ")
+    print(f"Player Health: {player_health}/{player_max_health} ")
+    print(f"Health Potions: {health_potions}")
     print(f"Enemy Health: {enemy_health} ")
 
     print("-------------------------")
