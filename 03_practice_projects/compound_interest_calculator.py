@@ -5,14 +5,14 @@ time = 0
 while True:
     principle = float(input("Enter the principle amount: "))
     if principle < 0:
-        print("Principle can't be less than or equal to zero. ")
+        print("Principle can't be less than zero. ")
     else:
         break        
 
 while True:
     rate = float(input("Enter the interest rate: "))
     if rate < 0:
-        print("Rate can't be less than or equal to zero. ")
+        print("Rate can't be less than zero. ")
     else:
         break        
 
@@ -20,7 +20,7 @@ while True:
 while True:
     time = int(input("Enter the time in years: "))
     if time < 0:
-        print("Time can't be less than or equal to zero. ")
+        print("Time can't be less than zero. ")
     else:
         break    
 
